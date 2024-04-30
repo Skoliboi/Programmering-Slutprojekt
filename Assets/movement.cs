@@ -29,7 +29,7 @@ public class movement : MonoBehaviour
         {
             myRigidbody.AddForce(new Vector3(-5, 0, 0));
         }
-        if (Input.GetKeyDown(KeyCode.Space) && Hopp < 1)
+        if (Input.GetKeyDown(KeyCode.W) && Hopp < 1)
         {
             myRigidbody.AddForce(new Vector3(0, 240, 0));
             Hopp++;
